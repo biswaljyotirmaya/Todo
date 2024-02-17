@@ -1,4 +1,5 @@
 TODO APP
+![GitHub Logo]([https://github.com/username/repository/blob/master/image.png](https://github.com/biswaljyotirmaya/Todo-APP/assets/140167637/f3b0bdc6-71f8-4e78-af8f-7fa1c14f55bf))
 
 The Todo App is a task management application designed to help users organize their daily activities effectively. It provides functionalities to add, edit, delete, and mark the status of tasks. Additionally, the app includes an option to clear all tasks from the list. Here's a brief description of each feature:
 
