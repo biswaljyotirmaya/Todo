@@ -20,8 +20,8 @@ const MainTodo = () => {
 
   return (
     <div className="grid place-items-center h-screen bg-black">
-      <div className="bg-gradient-to-r from-indigo-300 to-white w-[822px] p-14">
-        <h3 className="text-4xl font-bold text-black mb-2">TODO List App</h3>
+      <div className="bg-gradient-to-r from-indigo-300 to-white w-[900px] p-14">
+        <h3 className="text-4xl font-bold text-black mb-2">TODO List </h3>
         <span className=" my bg-[#a06464] opacity-80 text-white rounded px-1">Do it now.</span>
         <br />
         <div className="flex justify-around my-4">

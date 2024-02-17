@@ -16,7 +16,7 @@ const TodoList = ({ itemsList, setItemsList, deleteItem }) => {
       <div className="flex justify-center">
         {itemsList.length > 0 && (
           <button
-            className="border rounded-md font-semibold mt-6 border-black p-2 shadow-md shadow-black"
+            className="mt-10 pt text-center shadow-md   border border-black font-semibold text-base py-1 rounded px-4  text-black hover:shadow-black"
             onClick={() => setItemsList([])}
           >
             Clear all task

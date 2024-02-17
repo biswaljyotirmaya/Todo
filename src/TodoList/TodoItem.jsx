@@ -45,7 +45,7 @@ const TodoItem = ({ item, deleteItem, editItem, itemsList }) => {
               onKeyDown={handleKeyDown}
             />
             <button
-              className="border shadow-md shadow-yellow-900 border-sky-400 font-semibold px-2 mx-2 rounded-md hover:bg-sky-100 text-basepy "
+              className="ml-2 text-center shadow-md border border-sky-600 font-semibold text-base py-1 rounded px-4  text-sky-500 hover:shadow-black"
               onClick={() => setEditMode(false)}
             >
               Done
@@ -58,7 +58,7 @@ const TodoItem = ({ item, deleteItem, editItem, itemsList }) => {
         )}
         {todo ? (
           <button
-            className="w-2/12 pt text-center border shadow-md shadow-yellow-700 border-yellow-500 font-semibold text-md py-1  rounded px-4 hover:bg-yellow-200"
+            className="w-2/12 pt text-center shadow-md   border font-semibold text-base py-1 rounded px-4  text-amber-500 hover:shadow-black"
             onClick={() => {
               setTodo(!todo);
             }}
@@ -67,7 +67,7 @@ const TodoItem = ({ item, deleteItem, editItem, itemsList }) => {
           </button>
         ) : (
           <button
-            className="w-2/12 pt text-center shadow-md shadow-green-700  border border-green-500 font-semibold text-md py-1 rounded px-4 hover:bg-green-200"
+            className="w-2/12 pt text-center shadow-md   border font-semibold text-base py-1 rounded px-4 text-green-500 hover:shadow-black"
             onClick={() => {
               setTodo(!todo);
             }}
@@ -77,7 +77,7 @@ const TodoItem = ({ item, deleteItem, editItem, itemsList }) => {
         )}
         <div className="w-1/12 pt text-center px-3">
           <button
-            className="border py-1 px-2 flex justify-center border-sky-300 shadow-sky-900 rounded-sm text-blue-600 shadow-md hover:bg-sky-200"
+            className=" pt text-center shadow-md   border font-semibold text-base py-1 rounded px-4  text-sky-500 hover:shadow-black"
             onClick={handleEdit}
           >
             <MdEdit size={20} />
@@ -85,7 +85,7 @@ const TodoItem = ({ item, deleteItem, editItem, itemsList }) => {
         </div>
         <div className="w-1/12 text-center px-3">
           <button
-            className="border py-1 flex justify-center border-gray-400 rounded-sm text-gray-400 shadow-md text-center cursor-pointer hover:bg-gray-300 px-2 shadow-gray-500"
+            className=" pt text-center shadow-md   border font-semibold text-base p-2 rounded  text-gray-500 hover:shadow-black"
             onClick={() => deleteItem(item)}
           >
             <MdDelete size={20} />
